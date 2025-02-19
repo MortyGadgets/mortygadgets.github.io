@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+   <html lang="es">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Mi Tienda Online</title>
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <div class="container">
+           <!-- Menú lateral -->
+           <div class="sidebar">
+               <h2>Categorías</h2>
+               <ul>
+                   <li><a href="#" data-category="hogar">Hogar</a></li>
+                   <li><a href="#" data-category="tecnologia">Tecnología</a></li>
+                   <li><a href="#" data-category="cocina">Cocina</a></li>
+                   <li><a href="#" data-category="audio-video">Audio y Video</a></li>
+                   <li><a href="#" data-category="juguetes">Juguetes</a></li>
+                   <li><a href="#" data-category="descuentos">Descuentos</a></li>
+               </ul>
+           </div>
+
+           <!-- Contenido principal -->
+           <div class="main-content">
+               <h1 id="category-title">Selecciona una categoría</h1>
+               <div id="product-list"></div>
+           </div>
+       </div>
+
+       <script src="script.js"></script>
+   </body>
+   </html>
